@@ -1,0 +1,29 @@
+{
+  "name": "autoworkflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CJMVPU/AutoWorkFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CJMVPU/AutoWorkFlow/issues"
+  },
+  "homepage": "https://github.com/CJMVPU/AutoWorkFlow#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
