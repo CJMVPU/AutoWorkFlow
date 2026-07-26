@@ -31,3 +31,8 @@ Thumbs.db
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
+
+# 忽略明文业务数据源 (JSON 格式)
+src/db/terminal_id.json
+src/db/cy_location_id.json
+src/db/sales_id.json

@@ -1,29 +1,30 @@
 {
-  "name": "autoworkflow",
+  "name": "internal_efficiency_tools",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CJMVPU/AutoWorkFlow.git"
+    "url": "git+https://github.com/CJMVPU/internal_efficiency_tools.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/CJMVPU/AutoWorkFlow/issues"
+    "url": "https://github.com/CJMVPU/internal_efficiency_tools/issues"
   },
-  "homepage": "https://github.com/CJMVPU/AutoWorkFlow#readme",
-  "devDependencies": {
-    "@types/node": "^25.9.2",
-    "typescript": "^6.0.3"
-  },
+  "homepage": "https://github.com/CJMVPU/internal_efficiency_tools#readme",
   "dependencies": {
-    "playwright": "^1.60.0"
+    "better-sqlite3": "^13.0.1",
+    "fernet": "^0.3.3",
+    "playwright": "^1.61.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.13.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
   }
 }
