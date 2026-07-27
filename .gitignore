@@ -36,3 +36,4 @@ Thumbs.db
 src/db/terminal_id.json
 src/db/cy_location_id.json
 src/db/sales_id.json
+src/db/*.json
